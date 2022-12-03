@@ -1,0 +1,16 @@
+- figure out the content of the container file
+    - redo a new mobile app container
+    - download files after each change
+    - pretty print them for easiear diffing
+    - inspect and write findings
+- create a metodology to inspect
+    - pointers
+        - pin library versions
+            - maybe download them to this repo
+        - look to capture emulator network access
+        - make a timer that sends events at like every 2 seconds for a minute on button press
+    - network communication
+    - event hooking
+    - differences with third party tags
+- OPTIONAL extend metodology to work on downloaded apks
+- OPTIONAL do as many apks as possible
