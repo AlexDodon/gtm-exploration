@@ -1,0 +1,75 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2022-12-03 14:22:08",
+    "containerVersion": {
+        "path": "accounts/6065115827/containers/98153564/versions/1",
+        "accountId": "6065115827",
+        "containerId": "98153564",
+        "containerVersionId": "1",
+        "name": "Empty Container",
+        "container": {
+            "path": "accounts/6065115827/containers/98153564",
+            "accountId": "6065115827",
+            "containerId": "98153564",
+            "name": "gtmExploration",
+            "publicId": "GTM-P8JDRNF",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1670077058569",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6065115827/containers/98153564/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-P8JDRNF"
+            ]
+        },
+        "builtInVariable": [
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1670077058573",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6065115827/containers/98153564/versions/1?apiLink=version"
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "563992492576",
+    "project_id": "gtmexploration-2da5d",
+    "storage_bucket": "gtmexploration-2da5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563992492576:android:8cc805e702bf8493c11a45",
+        "android_client_info": {
+          "package_name": "com.example.gtmexplore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563992492576-ul9akl7op255mst54mjed6ffndec9f1a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzFiFvg9YLW1DGgYZFeO3-6be4YP0xdX0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563992492576-ul9akl7op255mst54mjed6ffndec9f1a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
