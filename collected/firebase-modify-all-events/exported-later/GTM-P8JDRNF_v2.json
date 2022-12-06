@@ -1,0 +1,141 @@
+{
+    "exportFormatVersion": 2,
+    "exportTime": "2022-12-06 13:13:46",
+    "containerVersion": {
+        "path": "accounts/6065115827/containers/98153564/versions/2",
+        "accountId": "6065115827",
+        "containerId": "98153564",
+        "containerVersionId": "2",
+        "name": "firebase-modify-all-events",
+        "container": {
+            "path": "accounts/6065115827/containers/98153564",
+            "accountId": "6065115827",
+            "containerId": "98153564",
+            "name": "gtmExploration",
+            "publicId": "GTM-P8JDRNF",
+            "usageContext": [
+                "ANDROID_SDK_5"
+            ],
+            "fingerprint": "1670077058569",
+            "tagManagerUrl": "https://tagmanager.google.com/#/container/accounts/6065115827/containers/98153564/workspaces?apiLink=container",
+            "features": {
+                "supportUserPermissions": true,
+                "supportEnvironments": true,
+                "supportWorkspaces": true,
+                "supportGtagConfigs": false,
+                "supportBuiltInVariables": true,
+                "supportClients": false,
+                "supportFolders": true,
+                "supportTags": true,
+                "supportTemplates": true,
+                "supportTriggers": true,
+                "supportVariables": true,
+                "supportVersions": true,
+                "supportZones": true
+            },
+            "tagIds": [
+                "GTM-P8JDRNF"
+            ]
+        },
+        "tag": [
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "tagId": "3",
+                "name": "firebase-modify-all-events",
+                "type": "fm",
+                "parameter": [
+                    {
+                        "type": "LIST",
+                        "key": "dropParamTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "dropParamKey",
+                                        "value": "KEY_1"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "overrideEventName",
+                        "value": "{{Event Name}}_modified"
+                    },
+                    {
+                        "type": "LIST",
+                        "key": "editParamTable",
+                        "list": [
+                            {
+                                "type": "MAP",
+                                "map": [
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamKey",
+                                        "value": "added"
+                                    },
+                                    {
+                                        "type": "TEMPLATE",
+                                        "key": "editParamValue",
+                                        "value": "addedValue"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TEMPLATE",
+                        "key": "action",
+                        "value": "filter"
+                    }
+                ],
+                "fingerprint": "1670332261735",
+                "firingTriggerId": [
+                    "2147479556"
+                ],
+                "tagFiringOption": "ONCE_PER_EVENT",
+                "consentSettings": {
+                    "consentStatus": "NOT_SET"
+                }
+            }
+        ],
+        "builtInVariable": [
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_ID",
+                "name": "App ID"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_NAME",
+                "name": "App Name"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_VERSION_CODE",
+                "name": "App Version Code"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "APP_VERSION_NAME",
+                "name": "App Version Name"
+            },
+            {
+                "accountId": "6065115827",
+                "containerId": "98153564",
+                "type": "EVENT_NAME",
+                "name": "Event Name"
+            }
+        ],
+        "fingerprint": "1670332286105",
+        "tagManagerUrl": "https://tagmanager.google.com/#/versions/accounts/6065115827/containers/98153564/versions/2?apiLink=version"
+    }
+}

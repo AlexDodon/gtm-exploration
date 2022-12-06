@@ -5,8 +5,11 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Handler;
+import android.util.Log;
 
 import com.example.gtmexplore.databinding.ActivityMainBinding;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseError;
 import com.google.firebase.analytics.FirebaseAnalytics;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
     private void registerTimer() {
         FirebaseAnalytics fa = FirebaseAnalytics.getInstance(this);
-
         int propCount = 3;
         Bundle props = new Bundle();
         for (int i = 1; i <= propCount; i++) {
@@ -31,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         Handler handler = new Handler();
-        int interval = 6000;
+        int interval = 15000;
         int eventCount = 3;
         for (long i = 1; i <= eventCount; i++) {
             long finalI = i;
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 private final String eventName = "EVENT_" + finalI;
                 @Override
                 public void run() {
-                    //fa.logEvent(eventName, props);
+                    fa.logEvent(eventName, props);
                     handler.postDelayed(this, interval);
                 }
             }, i * (interval / eventCount));

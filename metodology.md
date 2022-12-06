@@ -44,8 +44,21 @@
     - include the container version to `app/src/main/assets/containers`
         - we saved the container version to `collected/emptyContainerVersion`
 
+- third party tag
+    - appsflyer
+    - integration
+        - add sdk in the app build file
+
+                implementation 'com.appsflyer:af-android-sdk:6.9.0' 
+        - add the following dependencies to the manifest
+
+                <uses-permission android:name="android.permission.INTERNET" />
+                <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+            - curios if we can do without it and in what situation?
+            
 
 - things to test
+    - followed [this](https://nibarius.github.io/learning-frida/2022/05/21/sniffing-tls-traffic) to setup polar proxy for tls mitm
     - run with empty container
         - add analytics tag
             - remove analytics tag
